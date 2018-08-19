@@ -81,6 +81,7 @@ header ul li a{
     position: absolute;
     top: 22px;
     left: 210px;
+    border-bottom: 1px solid rgb(211, 186, 186);
 }
 main{
     margin-top: 50px;
@@ -250,15 +251,19 @@ main h1{
 /* section */
 
 footer{
-    height: 180px;
+    height: 160px;
     width: 100%;
     background-color: black;
     margin-top: 20px;
+    position: relative;
+    z-index: 0;
 }
-footer p{
-    
+footer p{   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: #ffffff;
+    top: 50px;
+    left: 600px;
+    position: absolute;
 }
 
